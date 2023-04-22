@@ -22,7 +22,6 @@
 .body-header {
     background-color: #FFFFFF;
     width: calc(100% - 14rem);
-    background-color: gray;
 }
 
 .search-area {
@@ -69,4 +68,70 @@
     font-size: .6rem;
     line-height: .6rem;
     color: #919aa3;
+}
+
+.header-comment {
+    position: absolute;
+    height: calc(100vh - 3.5rem);
+    width: 18rem;
+    background-color: #FFFFFF;
+    color: black;
+    box-shadow: 0 1px 20px 0 rgba(70, 90, 100, 0.08);
+    border-right: 1px solid rgba(0, 0, 0, 0.125);
+    display: none;
+}
+
+.header-comment-wrapper {
+    height: calc(100% - 6rem);
+    overflow: auto;
+}
+
+.header-comment-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.comment-user {
+    font-size: .75rem;
+    font-weight: bold;
+    margin-top: .8rem;
+}
+
+.comment-user-status {
+    font-size: .4rem;
+}
+
+.header-avatar {
+    width: 2rem;
+    height: 2rem;
+    border-radius: .3rem;
+    margin: .2rem;
+}
+
+.header-username {
+    color: #333333;
+    font-size: .8rem;
+}
+
+.header-profile {
+    position: absolute;
+    margin-top: .2rem;
+    left: 0;
+    z-index: 1000;
+    height: auto;
+    width: 13rem;
+    background-color: #FFFFFF;
+    color: #000000;
+    box-shadow: 0 1px 20px 0 rgba(70, 90, 100, 0.08);
+    display: none;
+}
+
+.header-profile-link {
+    padding: .4rem;
+    font-size: .8rem;
+    line-height: 1.4rem;
+}
+
+.header-profile-link>i {
+    width: 2rem;
+    text-align: center;
 }
