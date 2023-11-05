@@ -11,12 +11,13 @@
 
 .bg-gray {
     background-color: #404E67;
-    color: #dcdcdc;
+    color: #adabab;
 }
 
 .pointer {
     cursor: pointer;
 }
+
 
 .bg-custom-yellow {
     background: -webkit-gradient(linear, left top, right top, from(#feb798), to(#fe9365));
@@ -33,4 +34,43 @@
 
 .bg-custom-blue {
     background: linear-gradient(to right, #01dbdf, #01a9ac);
+}
+
+.info-box-body h5 {
+    font-size: .9rem;
+    line-height: 1rem;
+}
+
+.info-box-body p {
+    font-size: .7rem;
+    line-height: 1rem;
+}
+
+.info-box-body i {
+    font-size: 2rem;
+}
+
+.info-box-footer {
+    font-size: .6rem;
+}
+
+.main-body-container {
+    background-color: #ffffff;
+    margin: 1rem 0;
+    border-radius: .25rem;
+    padding: 1rem;
+}
+
+.main-body-container-header h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.main-body-container-header p {
+    font-size: .8rem;
+    color: #777;
+}
+
+.body-content p {
+    font-size: .8rem;
 }
